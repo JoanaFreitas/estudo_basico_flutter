@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lista_tarefas_shared_preferences/home_shared_preferences.dart';
+import 'armazenando_dados_no_app.dart';
 
 void main() => runApp( MyApp());
 
@@ -12,7 +12,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(       
         primarySwatch: Colors.blue,
       ),
-      home: HomeSharedPreferences(),
+      home: ArmazenandoDadosNoApp(),
+     // home: HomeSharedPreferences(),
     );
   }
 }
