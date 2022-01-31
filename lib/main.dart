@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lista_tarefas_shared_preferences/banco_dados_sqflite.dart';
 import 'armazenando_dados_no_app.dart';
 
 void main() => runApp( MyApp());
@@ -12,7 +13,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(       
         primarySwatch: Colors.blue,
       ),
-      home: ArmazenandoDadosNoApp(),
+     home: BancodadosSqflite(),
+     // home: ArmazenandoDadosNoApp(),
      // home: HomeSharedPreferences(),
     );
   }
